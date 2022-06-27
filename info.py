@@ -39,18 +39,20 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 IMDB_TEMP = """
 "🏷 <b>Title:</b> <a href={url}>{title} {year}</a>  
-
+🏷  <b>Localized Title:</b> `{localized_title }`
 💎 <b>Story:</b> `{plot}` 
 
 📺 <b>Type:</b> `{kind}` 
 🎭 <b>Genres:</b> `{genres}`
 📆 <b>Release date:</b> `{release_date}`
+🧭  <b>Runtime</b>: `{runtime}`
 🌟 <b>Rating:</b> <a href={url}/ratings>{rating}</a>/ 10 
 🤵‍♂️ <b>Director:</b> `{director}` 
 👤 <b>Writer:</b> `{writer}`
 🎥 <b>Producer:</b> `{producer}`
 💱 <b>Language:</b> `{languages}`
 🌍 <b>Country:</b> `{countries}`
+🎁 <b>Box Office:</b> `{box_office}`
 """
 
 
