@@ -411,6 +411,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('🆘 Help', callback_data='help'),
             InlineKeyboardButton('ℹ️ About', callback_data='about')
+        ], [
+            InlineKeyboardButton('special Notes ‼️', callback_data='nots')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -461,6 +463,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.SOURCE_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "nots":
+        buttons = [[
+            InlineKeyboardButton('My K-Drama Hub', url='https://t.me/mykdramahub'),
+        ],[    
+            InlineKeyboardButton('《《《 Back', callback_data='start')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.NOTE_TEXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
