@@ -93,11 +93,11 @@ This module only works for my admins
 • /broadcast - <code>to broadcast a message to all users</code>"""
     STATUS_TXT = """<b>My K-Drama Bot Stats</b> 📊
 
- ★ Total Files  : <code>{}</code>
- ★ Total Users  : <code>{}</code>    
- ★ Total Chats  : <code>{}</code>
- ★ Used Storage : <code>{} mb</code>
- ★ Free Storage : <code>{} mb</code>
+ ★ Total Files \t: <code>{}</code>
+ ★ Total Users \t: <code>{}</code>    
+ ★ Total Chats \t: <code>{}</code>
+ ★ Used Storage\t: <code>{}</code>
+ ★ Free Storage\t: <code>{}</code>
  
  ╭━ 💖━ 🤍━ 💖━ 🤍━ 💖
 ╰╮┏┳┳┳┓┏┳┳┳┳┓
