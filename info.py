@@ -36,6 +36,16 @@ DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
+
+IMDB_TEMP = environ.get(""" 
+<b>Query: {query}</b> \n‌‌‌‌
+IMDb Data:\n\n🏷 
+Title: <a href={url}>{title}</a>\n
+🎭 Genres: {genres}\n
+📆 Year: <a href={url}/releaseinfo>{year}</a>\n
+🌟 Rating: <a href={url}/ratings>{rating}</a> / 10
+""")
+
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamEvamaria')
