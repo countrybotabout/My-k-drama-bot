@@ -49,6 +49,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🆘 Help', callback_data='help'),
             InlineKeyboardButton('ℹ️ About', callback_data='about')
+            ],[
+            InlineKeyboardButton('special Notes ‼️', callback_data='nots')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
