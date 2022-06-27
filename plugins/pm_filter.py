@@ -406,7 +406,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🔍 Search', callback_data='serch'),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
         ], [
             InlineKeyboardButton('🆘 Help', callback_data='help'),
@@ -449,8 +449,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "source":
+    elif query.data == "serch":
         buttons = [[
+            InlineKeyboardButton('Search Hear 🔎', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('Go Inline 🔅', switch_inline_query='')
+        ],[    
             InlineKeyboardButton('《《《 Back', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
