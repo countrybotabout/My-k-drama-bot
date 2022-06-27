@@ -44,7 +44,7 @@ IMDB_TEMP = """
 📺 <b>Type:</b> `{kind}` 
 🎭 <b>Genres:</b> `{genres}`
 📆 <b>Release date:</b> `{release_date}`
-🧭  <b>Runtime</b>: `{runtime}`
+🧭  <b>Runtime</b>: `{runtime} Min`
 🌟 <b>Rating:</b> <a href={url}/ratings>{rating}</a>/ 10 
 🤵‍♂️ <b>Director:</b> `{director}` 
 👤 <b>Writer:</b> `{writer}`
@@ -52,6 +52,7 @@ IMDB_TEMP = """
 💱 <b>Language:</b> `{languages}`
 🌍 <b>Country:</b> `{countries}`
 🎁 <b>Box Office:</b> `{box_office}`
+{aka}
 """
 
 
