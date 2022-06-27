@@ -37,14 +37,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 
-IMDB_TEMP = environ.get(""" 
-<b>Query: {query}</b> \n‌‌‌‌
-IMDb Data:\n\n🏷 
-Title: <a href={url}>{title}</a>\n
-🎭 Genres: {genres}\n
-📆 Year: <a href={url}/releaseinfo>{year}</a>\n
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10
-""")
+IMDB_TEMP = environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10")
+
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
