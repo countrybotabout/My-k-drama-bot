@@ -91,13 +91,18 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """My K-Drama Bot Stats 📊
+    STATUS_TXT = """<b>My K-Drama Bot Stats</b> 📊
 
- ★ Total Files \t: <code>{}</code>
- ★ Total Users \t: <code>{}</code>    
- ★ Total Chats \t: <code>{}</code>
- ★ Used Storage \t: <code>{}</code> mb
- ★ Free Storage \t: <code>{}</code> mb
+ ★ Total Files  : <code>{}</code>
+ ★ Total Users  : <code>{}</code>    
+ ★ Total Chats  : <code>{}</code>
+ ★ Used Storage : <code>{} mb</code>
+ ★ Free Storage : <code>{} mb</code>
+ 
+ ╭━ 💖━ 🤍━ 💖━ 🤍━ 💖
+╰╮┏┳┳┳┓┏┳┳┳┳┓
+┏┻╋╋┻┻┫┣┻╋╋┻┫
+┗ⓞ┻┻━ⓞ┻┻ⓞ┻┻ⓞ┻
 """
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
