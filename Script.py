@@ -8,15 +8,15 @@ Tap Help 🆘 To get more informations
 
 Powered by @myKdrama_botupdats
 """
-    HELP_TXT = """𝙷𝙴𝚈 {}
+    HELP_TXT = """
 Here is the help foe my commands"""
-    ABOUT_TXT = """✯ My Name: `My K-Drama Bot`
-✯ Update on: `June 27, 2022`
-✯ Library: Pyrogram
-✯ Language: Python 3
-✯ Database: MongoDB
-✯ Srever: Heroku
-✯ Build Status: v2.5.5"""
+    ABOUT_TXT = """✯ My Name: <code>My K-Drama Bot</code>
+✯ Update on: <code>June 27, 2022</code>
+✯ Library: <code>Pyrogram</code>
+✯ Language: <code>Python 3</code>
+✯ Database: <code>MongoDB</code>
+✯ Srever: <code>Heroku</code>
+✯ Build Status: <code>v2.5.5</code>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
 - Source - https://github.com/EvamariaTG/EvaMaria  
