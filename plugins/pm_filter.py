@@ -440,6 +440,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('〄 Updates', url='https://t.me/myKdrama_botupdats'),
             InlineKeyboardButton('📊 Status', callback_data='stats')
         ], [
+            InlineKeyboardButton('Rate ⭐', url='https://t.me/tlgrmcbot?start=mykdrama_bot-review'),                                 
+        ], [
             InlineKeyboardButton('🏡 Home', callback_data='start'),
             InlineKeyboardButton('✖️ Close', callback_data='close_data')
         ]]
@@ -454,7 +456,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Search Hear 🔎', switch_inline_query_current_chat=''),
             InlineKeyboardButton('Go Inline 🔅', switch_inline_query='')
         ],[    
-            InlineKeyboardButton('《《《 Back', callback_data='about')
+            InlineKeyboardButton('《《《 Back', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
