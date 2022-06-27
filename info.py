@@ -51,8 +51,6 @@ IMDB_TEMP = """
 🎥 <b>Producer:</b> `{producer}`
 💱 <b>Language:</b> `{languages}`
 🌍 <b>Country:</b> `{countries}`
-
-💰 <b>Cast:</b> `{cast}`
 """
 
 
