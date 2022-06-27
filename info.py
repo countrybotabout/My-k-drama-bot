@@ -37,7 +37,23 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 
-IMDB_TEMP = """<b>Query: {query}</b> \n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10"""
+IMDB_TEMP = """
+"🏷 <b>Title:</b> <a href={url}>{title} {year}</a>  
+
+💎 <b>Story:</b> `{plot}` 
+
+📺 <b>Type:</b> `{kind}` 
+🎭 <b>Genres:</b> `{genres}`
+📆 <b>Release date:</b> `{release_date}`
+🌟 <b>Rating:</b> <a href={url}/ratings>{rating}</a>/ 10 
+🤵‍♂️ <b>Director:</b> `{director}` 
+👤 <b>Writer:</b> `{writer}`
+🎥 <b>Producer:</b> `{producer}`
+💱 <b>Language:</b> `{languages}`
+🌍 <b>Country:</b> `{countries}`
+
+💰 <b>Cast:</b> `{cast}`
+"""
 
 
 # Others
