@@ -17,12 +17,7 @@ Here is the help foe my commands"""
 ✯ Database: <code>MongoDB</code>
 ✯ Srever: <code>Heroku</code>
 ✯ Build Status: <code>v2.5.5</code>"""
-    SOURCE_TXT = """<b>NOTE:</b>
-- Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
-
-<b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
+    SOURCE_TXT = """  """
     NOTE_TEXT = """
 <b>My K-Drama Bot Special Notes:</b> 
 
