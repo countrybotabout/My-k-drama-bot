@@ -1,0 +1,18 @@
+services:
+  drone-vc-p:
+    build: .
+    environment:
+      API_ID: $API_ID  
+      API_HASH: $API_HASH  
+      BOT_TOKEN: $BOT_TOKEN 
+      ADMINS: $ADMINS 
+      AUTH_CHANNEL: $AUTH_CHANNEL
+      CHANNELS: $CHANNELS
+      COLLECTION_NAME: $COLLECTION_NAME
+      DATABASE_NAME: $DATABASE_NAME
+      DATABASE_URI: $DATABASE_URI
+      FILE_STORE_CHANNEL: $FILE_STORE_CHANNEL
+      LOG_CHANNEL: $LOG_CHANNEL
+    resources:
+      cpu: 1000m
+      memory: 3Gi
